@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import java.util.Date;
 
 @WebServlet(urlPatterns = {"/login"})
-public class ServletLogin extends HttpServlet {
+public class index extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter out = response.getWriter();
